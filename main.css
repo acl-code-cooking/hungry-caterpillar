@@ -10,6 +10,10 @@
     display: inline-block;
 }
 
+.transform {
+    border-radius: 150px;
+}
+
 
 .blue {
     background-color: blue;
