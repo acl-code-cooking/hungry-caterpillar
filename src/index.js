@@ -15,7 +15,7 @@ for(let index = 0; index < colors.length; index++) {
     let color = colors[index];
     const colorButton = document.createElement('button');
     colorButton.value = color;
-    colorButton.classList.add('color-button');
+    colorButton.classList.add('color-button', color);
     colorButton.textContent = color;
 
     colorButton.addEventListener('click', function() {
@@ -31,7 +31,7 @@ for(let index = 0; index < colors.length; index++) {
     let color = colors[index];
     const transformButton = document.createElement('button');
     transformButton.value = color;
-
+    transformButton.classList.add('transform-button', color);
     transformButton.textContent = color;
 
     transformButton.addEventListener('click', function() {
